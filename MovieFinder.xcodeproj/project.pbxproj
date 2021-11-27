@@ -16,6 +16,7 @@
 		281DAD49274F02B2006ED82C /* MovieFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DAD48274F02B2006ED82C /* MovieFinderTests.swift */; };
 		281DAD53274F02B2006ED82C /* MovieFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DAD52274F02B2006ED82C /* MovieFinderUITests.swift */; };
 		281DAD55274F02B2006ED82C /* MovieFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DAD54274F02B2006ED82C /* MovieFinderUITestsLaunchTests.swift */; };
+		285E93A627519EFC001FB765 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285E93A527519EFC001FB765 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		281DAD4E274F02B2006ED82C /* MovieFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281DAD52274F02B2006ED82C /* MovieFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFinderUITests.swift; sourceTree = "<group>"; };
 		281DAD54274F02B2006ED82C /* MovieFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		285E93A527519EFC001FB765 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				281DAD3A274F02B2006ED82C /* Assets.xcassets */,
 				281DAD3C274F02B2006ED82C /* LaunchScreen.storyboard */,
 				281DAD3F274F02B2006ED82C /* Info.plist */,
+				285E93A527519EFC001FB765 /* CustomTableViewCell.swift */,
 			);
 			path = MovieFinder;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				281DAD36274F02B0006ED82C /* ViewController.swift in Sources */,
 				281DAD32274F02B0006ED82C /* AppDelegate.swift in Sources */,
+				285E93A627519EFC001FB765 /* CustomTableViewCell.swift in Sources */,
 				281DAD34274F02B0006ED82C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V8H7V5SDB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MovieFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7V8H7V5SDB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MovieFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
